@@ -1,0 +1,182 @@
+*
+{
+   margin: 0;
+   padding: 0;
+
+}
+.navbar
+{
+    background: rgb(255, 255, 255);
+    width: 100%; 
+    position: absolute;
+}
+#Logo2
+{ 
+    position: absolute;
+    top: 45%;
+    padding-left: 25%;
+    width: 50%;
+    height: 70%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    filter: blur(15px) drop-shadow(8px 151px 11px rgba(0, 0, 0, 0.25));   
+}
+.mintbase
+{
+    position:absolute;
+    margin-top: -5.5pc;
+    padding-left: 2pc;
+    padding-top: 100px;
+}
+.MB
+{
+   text-decoration: none;
+}
+#Mint
+{
+    color: rgb(136, 125, 125);
+    font-family: inter;
+}
+#Base
+{
+    color: rgb(9, 11, 121);
+    font-family: inter;
+}
+
+/* form input section */
+.rgs
+{
+    position: absolute;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    top: 50pc;
+}
+.emails
+{
+    position: absolute;
+    top: 4pc;
+}
+#email
+{
+    position: absolute;
+    left: 41pc;
+    bottom: 30pc;
+}
+#emailbox
+{
+    position: absolute;
+    left: 41pc;
+    bottom: 24.33pc;
+    width: 496px;
+    height: 79px;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.4);
+    border: 3px solid #696A6C;
+    border-radius: 45px;
+}
+.password
+{
+    position: absolute;
+    top: 16pc;
+}
+#pass1
+{
+    position: absolute;
+    left: 41pc;
+    bottom: 30pc;
+    white-space: nowrap;
+}
+#pass2
+{
+    position: absolute;
+    left: 41pc;
+    bottom: 24.33pc;
+    width: 496px;
+    height: 79px;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.4);
+    border: 3px solid #696A6C;
+    border-radius: 45px;
+}
+.Showpassword
+{
+    position: absolute;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    bottom: 2pc;
+    left: 41pc;
+    white-space: nowrap;
+}
+#bt1
+{
+    position: absolute;
+    width: 52px;
+    height: 26px;
+    left: 12pc;
+    top: 0.1pc;
+    background: #d8d0d0;
+    border-radius: 15px;
+}
+#bt2
+{
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    left: 12.55pc;
+    top: 0.3pc;
+    background: #122158;
+    border-radius: 4px;
+}
+#SU
+{
+    position: absolute;
+    background: #122158;
+    border-radius: 45px;
+    width: 496px;
+    height: 79px;
+    left: 15px;
+    top: 47px; 
+}
+#Als
+{
+    position: absolute;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    top: 10pc;
+    left: 1pc;
+    text-decoration: none;
+    color: black;
+}
+#fp
+{
+    position: absolute;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    top:8pc;
+    left: 1pc;
+    text-decoration: none;
+    color: black;
+}
+#login
+{
+    position: absolute;
+    font-family: inter;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(241, 248, 255);
+    left: 220px;
+    top: 75px;
+}
+
+
+/* form input section */

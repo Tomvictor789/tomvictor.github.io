@@ -1,0 +1,589 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  max-width:1689px;;
+}
+
+/* navbar starting */
+.navbar
+{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: 1px 20px 20px 0px rgba(0, 0, 0, 0.3)  ;
+    position: absolute;
+}
+#Logo
+{ 
+    padding-left: 40px;
+    width: 5%;
+    height: 80px;
+}
+#Logo2
+{ 
+    padding-left: 35%;
+    padding-top: 7%;
+    width: 30%;
+    height: 70%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);    
+}
+.mintbase
+{
+    position:absolute;
+    margin-top: -5.5pc;
+    padding-left: 10pc;
+    padding-top: 30px;
+}
+.toggle
+{
+    position:relative;
+    margin-left: 60pc;
+    margin-top: -25px;
+    font-family: inter;
+    cursor: pointer;
+}
+#Home, #About, #Reg, #ID
+{
+  margin-right: 47px;
+}
+#Home, #About, #Reg, #ID
+{
+  text-decoration: none;
+  color: black;
+}
+/* navbar section end */
+
+
+
+
+/* getting started */
+#Mint
+{
+    color: rgb(136, 125, 125);
+    font-family: inter;
+}
+#Base
+{
+    color: rgb(9, 11, 121);
+    font-family: inter;
+}
+.create
+{
+    position: absolute;
+    top: 15pc;
+    left: 43pc;
+    color: white;
+}
+#EXC,#sn,#gt
+{
+    font-family: inter;
+    font-size: 2rem;
+}
+#dmp
+{
+
+    font-size: 1.2rem;
+    margin-left: 0,5pc;
+}
+#gt
+{
+    position: absolute;
+    background: white;
+    border-radius: 40px;
+    width: 15pc;
+    color: rgb(13, 13, 99);
+    margin-top: 1pc;
+    margin-left: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+#sn
+{
+    padding-left: 20px;
+}
+/* getting started end section */
+
+
+/* Animatedimages */
+.animate
+{
+    width: 18pc;
+    height: 21.3pc;
+    position:absolute;
+    top: 50pc;
+    left: 40pc;
+    border-radius: 40px;
+    border: solid 8px rgb(169, 169, 180);
+    box-shadow: 5px 0px  10px rgba(0, 0, 0, 0.432);
+}
+.animate0
+{
+    width: 18pc;
+    height: 21.3pc;
+    position:absolute;
+    top: 50pc;
+    left: 5pc;
+    border-radius: 40px;
+    border: solid 8px rgb(169, 169, 180);
+    box-shadow: 5px 0px  10px rgba(0, 0, 0, 0.432);
+}
+.animate1
+{
+    width: 18pc;
+    height: 21.3pc;
+    position:absolute;
+    top: 50pc;
+    left: 77pc;
+    border-radius: 40px;
+    border: solid 8px rgb(169, 169, 180);
+    box-shadow: 5px 0px  10px rgba(0, 0, 0, 0.432);
+}
+.Animatedimages1
+{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 45pc;
+    position: relative;
+    box-shadow: -1px 23px 15px 0px rgba(0, 0, 0, 0.274);
+}
+.Animatedimages :nth-child(1)
+{
+    animation-name: fader;
+    animation-duration: 20s infinite;
+    z-index: 20;
+}
+
+
+/* top users section */
+.topusers
+{
+    position:absolute;
+}
+#user,#user1,#user2,#user3,#user4
+{
+    width: 9pc;
+    position: relative;
+    width:5pc;
+    height: 5pc;
+    left: 3pc;
+    top: 10pc;
+    border-radius: 70pc;
+}
+#user
+{
+  position: relative;
+  left:70pc;
+}
+#user1
+{
+  position: relative;
+  left:40pc;
+}
+#user2
+{
+  position: relative;
+  left:-6pc;
+}
+#user3
+{
+  position: relative;
+  left:79pc;
+}
+#user4
+{
+  position: relative;
+  left: 3pc;
+}
+
+
+/* ethandcheck icon section */
+.checks
+{
+    color: blue;
+    width: 7rem;
+    display: flex;
+    position: relative;
+    top: 18pc;
+    left: 89.9px;
+
+}
+#check
+{
+  position: relative;
+  left: 1pc;
+}
+#check1
+{
+  position: relative;
+  left: 19pc;
+}
+#check2
+{
+  position: relative;
+  left: 40pc;
+}
+#check3
+{
+  position: relative;
+  left: 63pc;
+}
+#check4
+{
+  position: relative;
+  left: 86.4pc;
+}
+.eths
+{
+    width: 7rem;
+    display: flex;
+    position: relative;
+    top: 18.9pc;
+    left: 96px;
+    font-weight: bold;
+}
+.topeth
+{
+    font-weight: bold;
+}
+#et
+{
+    position: relative;
+    left: 8pc;
+    top: 16.5pc;
+}
+#et1
+{
+    position: relative;
+    left: 24pc;
+    top: 16.5pc;
+}
+#et2
+{
+    position: relative;
+    left: 45pc;
+    top: 16.5pc;
+}
+#et3
+{
+    position: relative;
+    left: 67pc;
+    top: 16.5pc;
+}
+#et4
+{
+    position: relative;
+    left: 89.77pc;
+    top: 16.5pc;
+}
+
+
+
+#eth
+{
+    position: relative;
+    left: 18pc;
+}
+#eth2
+{
+    position: relative;
+    left: 39pc;
+}
+#eth3
+{
+    position: relative;
+    left: 62pc;
+}
+#eth4
+{
+    position: relative;
+    left: 85pc;
+}
+
+/* ethandcheck icon section */
+
+/* topusers name section */
+.topusersname
+{
+    width: 5rem;
+    position: relative;
+    top: 14pc;
+    left: 96px;
+    font-size: larger;
+    font-weight: bold;
+    white-space: nowrap;
+}
+#ut
+{
+    position: relative;
+    left: -2pc;
+}
+#ut1
+{
+    position: relative;
+    left: 10pc;
+}
+#ut2
+{
+    position: relative;
+    left: 25pc;
+}
+#ut3
+{
+
+    position: relative;
+    left: 43pc;  
+}
+#ut4
+{
+    position: relative;
+    left: 60pc;  
+}
+/* topusers name section */
+
+
+
+.gt1
+{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 1000;
+    width: 15pc;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 111pc;
+    left: 43%;
+    text-decoration: none;
+}
+ 
+.createaccount
+{
+    position: absolute;
+    width: 411px;
+    height: 316px;
+    left: 37px;
+    top: 1862px;
+    background: #FBFBFB;
+    box-shadow: 0px 6px 34px 6px rgba(0, 0, 0, 0.25);
+}
+
+.verifyaccount
+{
+    position: absolute;
+    width: 435px;
+    height: 316px;
+    left: 599px;
+    top: 1862px;
+    background: #FBFBFB;
+    box-shadow: 0px 6px 34px 6px rgba(0, 0, 0, 0.25);
+}
+
+.addnft
+{
+    position: absolute;
+    width: 435px;
+    height: 316px;
+    left: 1194px;
+    top: 1862px;
+    background: #FBFBFB;
+    box-shadow: 0px 6px 34px 6px rgba(0, 0, 0, 0.25);
+}
+
+#usr,#usr1,#usr2
+{
+    color: #081236;
+    font-size: 45px ;
+    position: absolute;
+    left: 43.82%;
+    right: 90.94%;
+    top: 18.44%;
+    bottom: 30.26%;
+}
+#createacct,#verifyacct,#addnft
+{
+    position: absolute;
+    width: 118px;
+    height: 39px;
+    left: 80px;
+    top: 121px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    white-space: nowrap;
+}
+#createacct1,#verifyacct1
+{
+    position: absolute;
+    width: 356px;
+    height: 24px;
+    left: 20px;
+    top: 202px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px; 
+    color: #081236;
+    white-space: nowrap;
+}
+#the
+{
+   position: relative;
+   top: 34px;
+   right: 303px;
+}
+#addnft1
+{
+    color: #081236;
+    position: absolute;
+    width: 356px;
+    height: 24px;
+    left: 4px;
+    top: 202px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    white-space: nowrap;
+}
+#you
+{
+    position: relative;
+    top: 230px;
+    right: -38px;
+    color: #081236;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+#and
+{
+    position: relative;
+    top: 230px;
+    right: -98px;
+    color: #081236;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+#addnft
+{
+    left: 8.99pc;
+}
+
+.sponsors
+{
+    
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 301px;
+    left: 991px;
+    top: 2300px;
+}
+#blockchain
+{
+    position: relative;
+    right: 60pc;
+    
+}
+#tchiin
+{
+    position: relative;
+    right: 50pc;
+}
+#trustwallet
+{
+    position: relative;
+    right: 50pc;
+}
+
+.bottom
+{
+    
+    position: absolute;
+    width: 1680px;
+    height: 266px;
+    left: 0px;
+    top: 2549px;
+    background: #122158;
+}
+
+
+.line
+{
+    border:  1px solid rgb(255, 255, 255);
+    position: relative;
+    top: 30px;
+    left: 10%;
+    width: 80%;
+}
+.line2
+{
+    border:  1px solid rgb(255, 255, 255);
+    position: relative;
+    top: 160px;
+    left: 10%;
+    width: 80%;
+}
+
+
+#MB
+{
+   color: #FBFBFB;
+   position: absolute;
+   left: 46.3%;
+   top: 45px;
+   font-family: inter;
+}
+#Pr
+{
+   color: #FBFBFB;
+   position: absolute;
+   left: 35%;
+   top: 90px;
+   font-size: 20px;
+}
+#crt
+{
+   color: #FBFBFB;
+   position: absolute;
+   left: 33%;
+   top: 120px;
+   font-size: 20px;
+}
+#cp
+{
+   color: #FBFBFB;
+   position: absolute;
+   left: 45%;
+   top: 220px;
+   font-size: 20px;
+   font-family: inter;
+   font-weight: 900;
+}
+
+
+
+
+
+
+/* .topusers end section */
+.Animatedimages :nth-child(2)
+{
+    z-index: 10;
+}
+.Animatedimages :nth-child(n+3)
+{
+    display: none;
+}
+@keyframes fader
+{
+    from{opacity:1.0;}
+    to{opacity:0.0};
+}
